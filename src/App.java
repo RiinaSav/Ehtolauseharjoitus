@@ -113,3 +113,39 @@
 //  }
 //     }
 // }
+
+// 3. Tee kolme muuttujaa -nimi1, nimi2 ja nimi3
+String nimi1 = "Matti";
+String nimi2 = "Teppo";
+String nimi3 = "Matti";
+
+// 3.1 Tutki onko nimi1 ja nimi2 samoja
+
+// if (nimi1.equals("aa")) {
+//     System.out.println("1 ja 2 samoja");
+// }
+
+// //3.2 Tutki onko nimi1 ja nimi2 erisuuria
+
+// if (!nimi1.equals("qq")) {
+//     System.out.println("1 ja 2 ei ole samoja");
+// }
+
+// 3.3 Tutki onko nimi1 ja nimi2 samoja. Jos ei ole, tutki onko nimi1 ja nimi3 samoja
+
+if (nimi1.equals("Teppo")) {
+    System.out.println("nimi1 ja nimi2 ovat samoja.");
+// } else {
+//     System.out.println("nimi1 ja nimi2 eivät ole samoja.");
+
+    }
+    else if (nimi1.equals("Matti")) 
+    {
+         System.out.println("nimi1 ja nimi3 ovat samoja");
+    }
+    else
+    {
+        System.out.println("nimi1 ja nimi3 eivät ole samoja.");
+    }
+        }
+    }
